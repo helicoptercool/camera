@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TouchlessWorldActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="0.5"
+            android:rotation="90"
+            android:src="@drawable/frame_part" />
+
+        <LinearLayout
+            android:id="@+id/camera_preview_layout"
+            android:orientation="horizontal"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="15dp">
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="0.5"
+            android:rotation="180"
+            android:src="@drawable/frame_part" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hand_closed_hand_layout"
+        android:orientation="horizontal"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="0.45"
+            android:rotation="0"
+            android:src="@drawable/frame_part" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.1"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/crunchfish_logo" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="0.45"
+            android:rotation="270"
+            android:src="@drawable/frame_part" />
+
+    </LinearLayout>
+
+</RelativeLayout>

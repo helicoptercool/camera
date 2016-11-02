@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/heli/WorkSpace/TouchlessWorldActivity11/app/build/intermediates/res/merged/debug/drawable/frame_part.png",
+        "source": "/home/heli/WorkSpace/TouchlessWorldActivity11/app/src/main/res/drawable/frame_part.png"
+    },
+    {
+        "merged": "/home/heli/WorkSpace/TouchlessWorldActivity11/app/build/intermediates/res/merged/debug/drawable/hand.png",
+        "source": "/home/heli/WorkSpace/TouchlessWorldActivity11/app/src/main/res/drawable/hand.png"
+    },
+    {
+        "merged": "/home/heli/WorkSpace/TouchlessWorldActivity11/app/build/intermediates/res/merged/debug/drawable/crunchfish_logo.png",
+        "source": "/home/heli/WorkSpace/TouchlessWorldActivity11/app/src/main/res/drawable/crunchfish_logo.png"
+    },
+    {
+        "merged": "/home/heli/WorkSpace/TouchlessWorldActivity11/app/build/intermediates/res/merged/debug/drawable/closed_hand.png",
+        "source": "/home/heli/WorkSpace/TouchlessWorldActivity11/app/src/main/res/drawable/closed_hand.png"
+    }
+]

@@ -1,0 +1,70 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* include/
+* include/touchless_a3d.h
+* include/touchless_a3d/
+* include/touchless_a3d/active_area/
+* include/touchless_a3d/active_area/active_area.h
+* include/touchless_a3d/active_area/listener.h
+* include/touchless_a3d/common.h
+* include/touchless_a3d/deprecated_gestures/
+* include/touchless_a3d/deprecated_gestures/closed_hand_presence.h
+* include/touchless_a3d/deprecated_gestures/face_presence.h
+* include/touchless_a3d/deprecated_gestures/gesture.h
+* include/touchless_a3d/deprecated_gestures/listener.h
+* include/touchless_a3d/deprecated_gestures/object_presence.h
+* include/touchless_a3d/deprecated_gestures/open_hand_presence.h
+* include/touchless_a3d/deprecated_gestures/pinch_sign_presence.h
+* include/touchless_a3d/deprecated_gestures/swipe.h
+* include/touchless_a3d/deprecated_gestures/thumbs_up_presence.h
+* include/touchless_a3d/deprecated_gestures/v_sign_presence.h
+* include/touchless_a3d/engine.h
+* include/touchless_a3d/geometry.h
+* include/touchless_a3d/gesture/
+* include/touchless_a3d/gesture/event.h
+* include/touchless_a3d/gesture/gesture.h
+* include/touchless_a3d/gesture/identifiable.h
+* include/touchless_a3d/gesture/listener.h
+* include/touchless_a3d/gesture/pose.h
+* include/touchless_a3d/gesture/swipe.h
+* include/touchless_a3d/iterator.h
+* include/touchless_a3d/parameters.h
+* include/touchless_a3d/range.h
+* include/touchless_a3d/result.h
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* libs/arm64-v8a/libtouchless_a3d.so => app/src/main/jniLibs/arm64-v8a/libtouchless_a3d.so
+* libs/arm64-v8a/libtouchless_a3d_jni.so => app/src/main/jniLibs/arm64-v8a/libtouchless_a3d_jni.so
+* libs/armeabi-v7a/libtouchless_a3d.so => app/src/main/jniLibs/armeabi-v7a/libtouchless_a3d.so
+* libs/armeabi-v7a/libtouchless_a3d_jni.so => app/src/main/jniLibs/armeabi-v7a/libtouchless_a3d_jni.so
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

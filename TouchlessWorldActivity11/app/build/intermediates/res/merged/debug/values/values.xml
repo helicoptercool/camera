@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hello Touchless World</string>
+    <string name="info_text">Please present an open or closed hand in front of the Camera please.</string>
+    <string name="license_connection_dialog_message">Application will not work due to that the application is not able to connect to license server, please check your network connection. Otherwise, if this problem persists, please contact us at license@crunchfish.com</string>
+    <string name="license_denied_dialog_message">Application will not work due to that the license is not valid. If this problem persists, please contact us at license@crunchfish.com</string>
+    <string name="ok">OK</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
